@@ -1,7 +1,7 @@
 version: "3"
 services:
     rust:
-        image: jupyterlab-rust:latest
+        image: alfred456654:jupyterlab-rust:latest
         ports:
             - "8888:8888"
         volumes:
