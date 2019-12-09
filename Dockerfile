@@ -2,7 +2,7 @@ FROM archlinux/base:latest
 
 ENV PATH $PATH:/jupyter/.cargo/bin
 
-RUN pacman -Sy --noconfirm rust jupyterlab cmake base-devel
+RUN pacman -Sy --noconfirm rust jupyterlab cmake base-devel git
 RUN rm -rf /var/cache/pacman
 RUN useradd -m -d /jupyter -U jupyter
 
