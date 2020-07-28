@@ -2,6 +2,8 @@
 
 JupyterLab with Rust kernel
 
-Available on Docker Hub: https://hub.docker.com/r/alfred456654/jupyterlab-rust
-
+  $ git clone https://github.com/bdetw/jupyterlab-rust.git
+  $ cd jupyterlab-rust
   $ chmod 777 notebooks
+  $ docker-compose up -d
+
